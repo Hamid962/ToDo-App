@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  text-align: center;
+  font-size: 48px;
+  color: #fff;
+  padding: 0 0 32px 0;
+}
+.container {
+  /* width: 100%; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 32px 24px;
+  border: 2px solid #fefefe;
+  border-radius: 8px;
+  min-height: 800px;
+  width: 800px;
+  background-color: #34495e;
+}
+.input-box {
+  width: 100%;
+  font-size: 36px;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  margin-bottom: 12px;
+  border: none;
+  padding: 32px 12px;
+  margin-bottom: 28px;
+}
+
+.list {
+  list-style: none;
+  padding: 12px;
+}
+.list li {
+  position: relative;
+  padding: 8px 112px 8px 8px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  font-size: 28px;
+  margin-bottom: 18px;
+  margin-right: 10px;
+}
+.icons {
+  width: 30px;
+  height: 30px;
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  display: block;
+}
+.icons:hover {
+  transition: all 2s;
+  transform: scaleY(2px);
+  translate: 4px;
+}
+button {
+  border: none;
+}
+.edit {
+  width: 30px;
+  height: 30px;
+  color: red;
+  position: absolute;
+  top: 10px;
+  right: 80px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 26px;
+}
+.edit:hover {
+  transition: all 2s;
+  transform: scaleY(2px);
+  translate: 4px;
+}
+
+input {
+  padding: 8px;
+  background-color: #ecf0f1;
+  border-radius: 10px;
+  font-size: 28px;
+  margin-bottom: 18px;
+  margin-right: 10px;
+}
